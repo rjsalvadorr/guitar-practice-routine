@@ -3,13 +3,7 @@
 
 \include "config.ly"
 
-\include "variations-intro.ly"
 \include "ch01.ly"
-\include "ch02.ly"
-\include "ch03.ly"
-\include "ch04.ly"
-\include "ch05.ly"
-\include "ch06.ly"
 
 \header {
   maintainer = "RJ Salvador"
@@ -49,8 +43,8 @@ tocSection =
     \header {
       title = \markup \abs-fontsize #34 {
         \center-column {
-          \line { "GUITAR IMPROV" }
-          \line { "FOUNDATIONS" }
+          \line { "GUITAR PRACTICE" }
+          \line { "ROUTINE" }
           \hspace #0
         }
       }
@@ -78,58 +72,6 @@ tocSection =
     \header {
       title = "PREFACE"
     }
-
-    \markup \abs-fontsize #12 {
-      \column {
-        \hspace #0
-        \hspace #0
-        \huge \bold "What is this book?"
-        \hspace #0
-        \wordwrap {
-          This book started as a personal collection of exercises to
-          get better at improvising on guitar, but it turned into a
-          compact system that could help other guitarists as well. So
-          I cleaned up what exercises I had, and decided to share this
-          with others.
-        }
-        \hspace #0
-        \hspace #0
-        \wordwrap {
-          I've laid out exercises for improving guitar fluency, which
-          help the reader to memorize patterns on the fingerboard.
-          These patterns all build on each other, and are especially
-          effective when combined with music theory knowledge.
-        }
-        \hspace #0
-        \hspace #0
-        \wordwrap {
-          I hope you learn something cool here, because I learned a
-          lot by making it.
-        }
-        \hspace #0
-        "RJ Salvador"
-        rjsalvadorr@gmail.com
-        www.rj-salvador.com
-        \hspace #0
-        \hspace #0
-        \hspace #0
-        
-        \huge \bold "Who is this book for, and why should anyone use it?"
-        \hspace #0
-        \wordwrap {
-          If any of this describes you, you might find this book
-          useful:
-        }
-        \hspace #0
-        "- You want to get better at improvisation by building up your technique and dexterity."
-        "- You like playing through fingerstyle or hybrid picking."
-        "- You're too busy for a rigid practice regimen, and want something more free-form."
-        \hspace #0
-        \hspace #0
-      }
-    }
-    
-    \pageBreak
     
     \markup \abs-fontsize #12 {
       \column {
@@ -231,20 +173,6 @@ tocSection =
   
     \markuplist \table-of-contents
   }
-
-  \include "variations-intro-text.ly"
   
   \include "ch01-text.ly"
-
-  \include "ch02-text.ly"
-
-
-
-  \include "ch03-text.ly"
-
-  \include "ch04-text.ly"
-
-  \include "ch05-text.ly"
-
-  \include "ch06-text.ly"
 }
