@@ -4,6 +4,7 @@
 \include "config.ly"
 
 \include "ch01.ly"
+\include "ch02.ly"
 
 \header {
   maintainer = "RJ Salvador"
@@ -77,59 +78,33 @@ tocSection =
       \column {
         \hspace #0
         \hspace #0
-        \huge \bold "What should a guitarist know before using this book?"
+        \huge \bold "Shoulder id tenderloin?"
         \hspace #0
         \wordwrap {
-          Not very much. If you can play at a basic level, and you can read tablature, you can probably learn a lot here.        }
+            Ipsum id voluptate burgdoggen ribeye pork loin aliquip pig ground round tail, beef alcatra kevin. Tongue spare ribs excepteur incididunt filet mignon flank dolore ea prosciutto rump sausage culpa.
+        }
         \hspace #0
         \hspace #0
         \hspace #0
 
-        \huge \bold "How does a guitarist use this properly?"
+        \huge \bold "Kielbasa chicken ea cupidatat?"
         \hspace #0
 
-        \large \bold "The general rule"
+        \bold "Voluptate mollit tempor"
         \hspace #0
         \wordwrap {
-          For any exercise, learn the chord patterns until you can
-          play the the whole exercise smoothly. That means playing the
-          correct notes, in correct and steady rhythm. If you can do
-          this, you're doing it right.
+          Pastrami sint ut salami ut picanha boudin shankle commodo reprehenderit pig. Doner picanha ground round adipisicing deserunt ball tip incididunt quis sint consequat.
         }
+        
         \hspace #0
+        \hspace #0
+        
+        \bold "Tail adipisicing ex turkey shoulder"
         \hspace #0
         \wordwrap {
-          Once you learn the chord patterns, play with them. Use
-          them to play familiar chords in different ways. Mix the new
-          chord patterns with older and more familiar ways of playing
-          guitar. This way, you'll learn what works for you,
-          and what doesn't work as well.
+          Shankle ham hock esse, deserunt short loin kielbasa officia laborum est strip steak tenderloin. Pig incididunt eiusmod bacon laborum dolore shoulder pork ground round chicken non mollit ad do kielbasa.
         }
-        \hspace #0
-        \hspace #0
-
-        \large \bold "Specific guidelines"
-        \hspace #0
-        \wordwrap {
-          1. Focus on memorizing the chord patterns relative to their
-          root note. If you learn one chord pattern on the fretboard,
-          you can easily that same chord type different root notes.
-        }
-        \hspace #0
-        \wordwrap {
-          2. At first, play through the chord patterns slowly. That's
-          very important. It's easier to memorize these patterns when
-          they're played slowly at first.
-        }
-        \hspace #0
-        \wordwrap {
-          3. Don't worry if you can't memorize the chord patterns
-          quickly. It takes plenty of time and repetition to build
-          muscle memory. That's why you have to do this stuff
-          frequently, hopefully every day. Even 10 minutes a day would
-          work. Besides, even if you don't memorize an exercise completely,
-          you'd still build finger dexterity by doing it. 
-        }
+        
         \hspace #0
         \hspace #0
         \hspace #0
@@ -175,4 +150,5 @@ tocSection =
   }
   
   \include "ch01-text.ly"
+  \include "ch02-text.ly"
 }

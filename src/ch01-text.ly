@@ -1,10 +1,10 @@
 \bookpart {
   
-  \tocItem \markup \bold { Chapter 1 - Arpeggios }
+  \tocItem \markup \bold { Part 1 - Scales }
   
   \header {
-    title = "CHAPTER 1"
-    subtitle = "ARPEGGIOS"
+    title = "PART 1 - Scales"
+    subtitle = "Scales"
   }
   
   \paper {
@@ -18,63 +18,50 @@
       \hspace #0
       \hspace #0
       \wordwrap \abs-fontsize #13 {
-        Arpeggios are an essential element for skillful
-        improvisation and composition. They're used in countless
-        melodies, and many accompaniment parts use nothing but
-        block chords and arpeggios.
+        Reprehenderit duis nulla, id est lorem filet mignon fatback pork commodo swine strip steak. Bacon pig occaecat duis, eu elit non aliquip eiusmod biltong leberkas t-bone qui boudin pariatur. 
       }
+      
       \hspace #0
       \hspace #0
       \wordwrap \abs-fontsize #13 {
-        I put these exercises first because they're so useful,
-        versatile, and ubiquitous. Knowledge of arpeggios can be
-        applied right away to create good music. If you're going to
-        learn only one exercise set from this book, this is the one
-        I'd recommend.
+        Chislic pancetta laboris pork dolor. Turkey cow sirloin laboris sed dolore, eu nostrud pancetta jowl. Rump nisi ex exercitation tri-tip cillum boudin commodo et meatball mollit tempor sirloin turkey. Andouille spare ribs biltong magna rump.
       }
+      
       \hspace #0
       \hspace #0
       \hspace #0
-      \huge \bold "Exercise Format"
+      \huge \bold "Kielbasa culpa aute"
       \hspace #0
       \wordwrap \abs-fontsize #13 {
-        Each exercise goes through a chord progression made of four
-        chords, which are played as two-octave arpeggios.
+        Bacon ipsum dolor amet aliqua sed meatball ground round ipsum lorem fatback minim pork belly doner anim. Boudin in in turducken, meatball sirloin pork belly ham hock chuck deserunt.
       }
+      
       \hspace #0
       \hspace #0
       \hspace #0
-      \huge \bold "Suggestions"
+      \huge \bold "Pastrami consequat ex"
       \hspace #0
       \wordwrap \abs-fontsize #13 {
-        Be mindful of the root note of each chord, and where they
-        are. Each arpeggio in these exercises will have the root
-        note in three spots: the beginning, middle, and end.
+        Short loin aliqua minim, officia shankle cupidatat tail voluptate excepteur boudin tongue porchetta pastrami short ribs ex. Adipisicing mollit consectetur id pancetta salami meatball brisket. Boudin salami minim pariatur nostrud in.
       }
+      
       \hspace #0
       \hspace #0
       \wordwrap \abs-fontsize #13 {
-        Follow the fretting hand fingerings on the notation staff.
-        If you're not familiar with the notation, the fingers are
-        numbered like this:
+        Nulla dolore strip steak, picanha culpa mollit ullamco in magna swine voluptate ribeye brisket laborum. Non culpa do incididunt.
       }
-      \hspace #0
-      "1 = index"
-      "2 = middle"
-      "3 = ring"
-      "4 = pinky"
     }
   }
 }
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 1-A:  Major and minor chords" }
+  \tocItem \markup { "   Exercise 1-A:  Major scale" }
   
   \header {
     title = "Exercise 1-A"
-    subtitle = "Major and minor chords"
-    subsubtitle = "I − vi − ii − V"
+    subtitle = "Major scale"
+    subsubtitle = "Key skill: shifting and moving around the fingerboard"
   }
   
   \paper { 
@@ -103,12 +90,12 @@
       
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
-        \arpeggiosContextInNotation
+        \scaleContextOne
       >>
         
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
-        \arpeggiosContextInTab
+        \scaleContextOneTab
       >>
     >>
   }
@@ -116,12 +103,12 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 1-B:  Major and diminished chords" }
+  \tocItem \markup { "   Exercise 1-B:  Minor scale" }
   
   \header {
     title = "Exercise 1-B"
-    subtitle = "Major and diminished chords"
-    subsubtitle = "I − IV − V − vii°"
+    subtitle = "Minor scale"
+    subsubtitle = "Key skill: shifting and moving around the fingerboard"
   }
   
   \paper { 
@@ -150,59 +137,12 @@
       
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
-        \arpeggiosContextTwo
+        \scaleContextTwo
       >>
         
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
-        \arpeggiosContextTwoTab
-      >>
-    >>
-  }
-}
-
-\bookpart {
-
-  \tocItem \markup { "   Exercise 1-C:  Minor and diminished chords" }
-
-  \header {
-    title = "Exercise 1-C"
-    subtitle = "Minor and diminished chords"
-    subsubtitle = "i − iv − V − vii°"
-  }
-  
-  \paper { 
-    system-system-spacing.basic-distance = #16
-  }
-
-  \markup {
-    \column {
-      \hspace #0
-      \wordwrap \abs-fontsize #12 {
-        Minor arpeggios, and a diminished arpeggio starting on the E string.
-      }
-      \hspace #0
-      \hspace #0
-    }
-  }
-  
-  \score {
-    
-    \layout {
-      \omit Voice.StringNumber
-      indent = 0.0\cm
-    }
-    
-    \new StaffGroup <<
-      
-      \new Staff <<
-        \override Score.BarNumber.transparent = ##t
-        \arpeggiosContextThree
-      >>
-        
-      \new TabStaff <<
-        \set TabStaff.restrainOpenStrings = ##t
-        \arpeggiosContextThreeTab
+        \scaleContextTwoTab
       >>
     >>
   }
