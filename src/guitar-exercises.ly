@@ -5,11 +5,12 @@
 
 \include "ch01.ly"
 \include "ch02.ly"
+\include "ch03.ly"
 
 \header {
   maintainer = "RJ Salvador"
   maintainerEmail = "randolph.salvador@gmail.com"
-  tagline = \markup { \abs-fontsize #12 "© RJ Salvador, 2018" }
+  tagline = \markup { \abs-fontsize #12 "© RJ Salvador, 2019" }
 }
 
 #(set-default-paper-size "letter")
@@ -44,12 +45,13 @@ tocSection =
     \header {
       title = \markup \abs-fontsize #34 {
         \center-column {
+          \line { "RJ'S" }
           \line { "GUITAR PRACTICE" }
           \line { "ROUTINE" }
           \hspace #0
         }
       }
-      subtitle = \markup { \abs-fontsize #18 \medium "Exercises for improving fluency on guitar" }
+      subtitle = \markup { \abs-fontsize #18 \medium "Exercises for levelling up fretboard skills" }
     }
     \paper {
       top-markup-spacing.basic-distance = #20
@@ -71,45 +73,61 @@ tocSection =
   
   \bookpart {
     \header {
-      title = "PREFACE"
+      title = "Introduction"
     }
     
     \markup \abs-fontsize #12 {
       \column {
         \hspace #0
         \hspace #0
-        \huge \bold "Shoulder id tenderloin?"
+        \huge \bold "What is this?"
         \hspace #0
         \wordwrap {
-            Ipsum id voluptate burgdoggen ribeye pork loin aliquip pig ground round tail, beef alcatra kevin. Tongue spare ribs excepteur incididunt filet mignon flank dolore ea prosciutto rump sausage culpa.
+            This is a book of exercises for levelling up fretboard skills.
+            More specifically, this book aims to improve the following technical skills:
         }
         \hspace #0
         \hspace #0
+        "- string crossings"
+        "- position shifts"
+        "- chord movement"
+        "- harmonic context"
+        \hspace #0
+        
+        \huge \bold "Who is this for?"
+        \hspace #0
+        \wordwrap {
+            Intermediate-level guitarists that want a good starting point for a daily practice regimen.
+        }
         \hspace #0
 
-        \huge \bold "Kielbasa chicken ea cupidatat?"
+        \huge \bold "How do I use this?"
         \hspace #0
 
-        \bold "Voluptate mollit tempor"
+        \bold "Daily practice"
         \hspace #0
         \wordwrap {
-          Pastrami sint ut salami ut picanha boudin shankle commodo reprehenderit pig. Doner picanha ground round adipisicing deserunt ball tip incididunt quis sint consequat.
+          For example, a simple daily session could involve playing one exercise from part 1, and another from part 2. If I have more time, I can go through an exercise from each part as a technical exercise or warmup,
         }
         
         \hspace #0
         \hspace #0
         
-        \bold "Tail adipisicing ex turkey shoulder"
+        \bold "Brushing up on technique"
         \hspace #0
         \wordwrap {
-          Shankle ham hock esse, deserunt short loin kielbasa officia laborum est strip steak tenderloin. Pig incididunt eiusmod bacon laborum dolore shoulder pork ground round chicken non mollit ad do kielbasa.
+          You can also focus on specific exercises. Say you want to improve your chord work for a week. Then you can play one exercise from "Part 3" every day for a week.
         }
         
         \hspace #0
         \hspace #0
+        
+        \bold "Examples of daily exercise programs"
         \hspace #0
-        \hspace #0
-        \hspace #0
+        "BASIC ROUTINE --- 1 exercise from each of the following parts: 1, 2"
+        "EXTENDED ROUTINE --- 1 exercise from each of the following parts: 1, 2, 3"
+        "FOCUSED ROUTINE --- all the exercises from one part"
+        
         \hspace #0
         \hspace #0
 
@@ -151,4 +169,5 @@ tocSection =
   
   \include "ch01-text.ly"
   \include "ch02-text.ly"
+  \include "ch03-text.ly"
 }

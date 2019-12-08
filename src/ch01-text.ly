@@ -1,9 +1,10 @@
 \bookpart {
   
+  \tocSection \markup { Scales and arpeggios }
   \tocItem \markup \bold { Part 1 - Scales }
   
   \header {
-    title = "PART 1 - Scales"
+    title = "Part 1"
     subtitle = "Scales"
   }
   
@@ -13,43 +14,53 @@
     right-margin = 1.25\in
   }
 
-  \markup {
+  \markup \abs-fontsize #13 {
     \column {
       \hspace #0
       \hspace #0
-      \wordwrap \abs-fontsize #13 {
+      \wordwrap {
         Reprehenderit duis nulla, id est lorem filet mignon fatback pork commodo swine strip steak. Bacon pig occaecat duis, eu elit non aliquip eiusmod biltong leberkas t-bone qui boudin pariatur. 
       }
-      
       \hspace #0
       \hspace #0
-      \wordwrap \abs-fontsize #13 {
-        Chislic pancetta laboris pork dolor. Turkey cow sirloin laboris sed dolore, eu nostrud pancetta jowl. Rump nisi ex exercitation tri-tip cillum boudin commodo et meatball mollit tempor sirloin turkey. Andouille spare ribs biltong magna rump.
+      \hspace #0
+
+      \huge \bold "Exercise Format"
+      \hspace #0
+      \wordwrap {
+        These scale fingerings cover a good portion of the fretboard, and feature several string shifts and string crossings.
       }
-      
       \hspace #0
       \hspace #0
-      \hspace #0
-      \huge \bold "Kielbasa culpa aute"
-      \hspace #0
-      \wordwrap \abs-fontsize #13 {
-        Bacon ipsum dolor amet aliqua sed meatball ground round ipsum lorem fatback minim pork belly doner anim. Boudin in in turducken, meatball sirloin pork belly ham hock chuck deserunt.
+      \wordwrap {
+        In addition, the 2nd half of each scale (descending) is a modified form of the first half. You can practice each half separately if you need extra scale practice, or mix them up in other ways.
       }
-      
       \hspace #0
       \hspace #0
       \hspace #0
-      \huge \bold "Pastrami consequat ex"
+
+      \huge \bold "Key Skills"
       \hspace #0
-      \wordwrap \abs-fontsize #13 {
-        Short loin aliqua minim, officia shankle cupidatat tail voluptate excepteur boudin tongue porchetta pastrami short ribs ex. Adipisicing mollit consectetur id pancetta salami meatball brisket. Boudin salami minim pariatur nostrud in.
+      \wordwrap {
+        These scales focus on improving \italic {string crossings} and \italic {position shifts}.
       }
-      
       \hspace #0
       \hspace #0
-      \wordwrap \abs-fontsize #13 {
-        Nulla dolore strip steak, picanha culpa mollit ullamco in magna swine voluptate ribeye brisket laborum. Non culpa do incididunt.
+      \hspace #0
+
+      \huge \bold "Notation"
+      \hspace #0
+      \wordwrap {
+        Follow the fretting hand fingerings on the notation staff.
+        If you're not familiar with the notation, the fingers are
+        numbered like this:
       }
+      \hspace #0
+      \hspace #0
+      "1 = index"
+      "2 = middle"
+      "3 = ring"
+      "4 = pinky"
     }
   }
 }
@@ -61,19 +72,15 @@
   \header {
     title = "Exercise 1-A"
     subtitle = "Major scale"
-    subsubtitle = "Key skill: shifting and moving around the fingerboard"
   }
   
   \paper { 
     system-system-spacing.basic-distance = #16
   }
   
-  \markup {
+  \markup \abs-fontsize #12 {
     \column {
       \hspace #0
-      \wordwrap \abs-fontsize #12 {
-        This chord progression is commonly found in jazz and pop music. It also gives us a chance to practice two forms of major and minor arpeggios (on the A string and the low E string).
-      }
       \hspace #0
       \hspace #0
     }
@@ -103,24 +110,20 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 1-B:  Minor scale" }
+  \tocItem \markup { "   Exercise 1-B:  Natural minor scale" }
   
   \header {
     title = "Exercise 1-B"
-    subtitle = "Minor scale"
-    subsubtitle = "Key skill: shifting and moving around the fingerboard"
+    subtitle = "Natural minor scale"
   }
   
   \paper { 
     system-system-spacing.basic-distance = #16
   }
 
-  \markup {
+  \markup \abs-fontsize #12 {
     \column {
       \hspace #0
-      \wordwrap \abs-fontsize #12 {
-        Major arpeggios, and a diminished arpeggio starting on the A string.
-      }
       \hspace #0
       \hspace #0
     }
@@ -143,6 +146,53 @@
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
         \scaleContextTwoTab
+      >>
+    >>
+  }
+}
+
+\bookpart {
+  
+  \tocItem \markup { "   Exercise 1-C:  Harmonic minor scale" }
+  
+  \header {
+    title = "Exercise 1-C"
+    subtitle = "Harmonic minor scale"
+  }
+  
+  \paper { 
+    system-system-spacing.basic-distance = #16
+  }
+
+  \markup \abs-fontsize #12 {
+    \column {
+      \hspace #0
+      \hspace #0
+      \wordwrap {
+        Just like exercise 1-B, but with the harmonic minor scale (natural minor scale + sharpened 7th degree).
+      }
+      \hspace #0
+      \hspace #0
+    }
+  }
+  
+  \score {
+    
+    \layout {
+      \omit Voice.StringNumber
+      indent = 0.0\cm
+    }
+    
+    \new StaffGroup <<
+      
+      \new Staff <<
+        \override Score.BarNumber.transparent = ##t
+        \scaleContextThree
+      >>
+        
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \scaleContextThreeTab
       >>
     >>
   }
