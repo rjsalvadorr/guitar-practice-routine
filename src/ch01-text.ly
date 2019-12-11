@@ -67,17 +67,17 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 1-A:  Major scale" }
+  \tocItem \markup { "   1-A   Major scale (5-string pattern)" }
   
   \header {
     title = "Exercise 1-A"
-    subtitle = "Major scale"
+    subtitle = "Major scale (5-string pattern)"
   }
   
   \paper { 
     system-system-spacing.basic-distance = #16
   }
-  
+
   \markup \abs-fontsize #12 {
     \column {
       \hspace #0
@@ -97,12 +97,12 @@
       
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
-        \scaleContextOne
+        \fiveStringScalesOne
       >>
         
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
-        \scaleContextOneTab
+        \fiveStringScalesOneTab
       >>
     >>
   }
@@ -110,11 +110,54 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 1-B:  Natural minor scale" }
+  \tocItem \markup { "   1-B   Major scale (4-string pattern)" }
   
   \header {
     title = "Exercise 1-B"
-    subtitle = "Natural minor scale"
+    subtitle = "Major scale (4-string pattern)"
+  }
+  
+  \paper { 
+    system-system-spacing.basic-distance = #16
+  }
+  
+  \markup \abs-fontsize #12 {
+    \column {
+      \hspace #0
+      \hspace #0
+      \hspace #0
+    }
+  }
+  
+  \score {
+    
+    \layout {
+      \omit Voice.StringNumber
+      indent = 0.0\cm
+    }
+    
+    \new StaffGroup <<
+      
+      \new Staff <<
+        \override Score.BarNumber.transparent = ##t
+        \fourStringScalesOne
+      >>
+        
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \fourStringScalesOneTab
+      >>
+    >>
+  }
+}
+
+\bookpart {
+  
+  \tocItem \markup { "   1-C   Natural minor scale (5-string pattern)" }
+  
+  \header {
+    title = "Exercise 1-C"
+    subtitle = "Natural minor scale (5-string pattern)"
   }
   
   \paper { 
@@ -140,12 +183,12 @@
       
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
-        \scaleContextTwo
+        \fiveStringScalesTwo
       >>
         
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
-        \scaleContextTwoTab
+        \fiveStringScalesTwoTab
       >>
     >>
   }
@@ -153,11 +196,97 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 1-C:  Harmonic minor scale" }
+  \tocItem \markup { "   1-D   Natural minor scale (4-string pattern)" }
   
   \header {
-    title = "Exercise 1-C"
-    subtitle = "Harmonic minor scale"
+    title = "Exercise 1-D"
+    subtitle = "Natural minor scale (4-string pattern)"
+  }
+  
+  \paper { 
+    system-system-spacing.basic-distance = #16
+  }
+
+  \markup \abs-fontsize #12 {
+    \column {
+      \hspace #0
+      \hspace #0
+      \hspace #0
+    }
+  }
+  
+  \score {
+    
+    \layout {
+      \omit Voice.StringNumber
+      indent = 0.0\cm
+    }
+    
+    \new StaffGroup <<
+      
+      \new Staff <<
+        \override Score.BarNumber.transparent = ##t
+        \fourStringScalesTwo
+      >>
+        
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \fourStringScalesTwoTab
+      >>
+    >>
+  }
+}
+
+\bookpart {
+  
+  \tocItem \markup { "   1-E   Harmonic minor scale (5-string pattern)" }
+  
+  \header {
+    title = "Exercise 1-E"
+    subtitle = "Harmonic minor scale (5-string pattern)"
+  }
+  
+  \paper { 
+    system-system-spacing.basic-distance = #16
+  }
+
+  \markup \abs-fontsize #12 {
+    \column {
+      \hspace #0
+      \hspace #0
+      \hspace #0
+    }
+  }
+  
+  \score {
+    
+    \layout {
+      \omit Voice.StringNumber
+      indent = 0.0\cm
+    }
+    
+    \new StaffGroup <<
+      
+      \new Staff <<
+        \override Score.BarNumber.transparent = ##t
+        \fiveStringScalesThree
+      >>
+        
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \fiveStringScalesThreeTab
+      >>
+    >>
+  }
+}
+
+\bookpart {
+  
+  \tocItem \markup { "   1-F   Harmonic minor scale (4-string pattern)" }
+  
+  \header {
+    title = "Exercise 1-F"
+    subtitle = "Harmonic minor scale (4-string pattern)"
   }
   
   \paper { 
@@ -187,12 +316,12 @@
       
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
-        \scaleContextThree
+        \fourStringScalesThree
       >>
         
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
-        \scaleContextThreeTab
+        \fourStringScalesThreeTab
       >>
     >>
   }

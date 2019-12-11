@@ -68,7 +68,7 @@
 
 \bookpart {
 
-  \tocItem \markup { "   Exercise 3-A:  Major three-string chords" }
+  \tocItem \markup { "   3-A   Major three-string chords" }
 
   \header {
     title = "Exercise 3-A"
@@ -110,7 +110,7 @@
 
 \bookpart {
 
-  \tocItem \markup { "   Exercise 3-B:  Minor three-string chords" }
+  \tocItem \markup { "   3-B   Minor three-string chords" }
 
   \header {
     title = "Exercise 3-B"
@@ -156,7 +156,7 @@
 
 \bookpart {
 
-  \tocItem \markup { "   Exercise 3-C:  Diminished three-string chords" }
+  \tocItem \markup { "   3-C   Diminished three-string chords" }
 
   \header {
     title = "Exercise 3-C"
