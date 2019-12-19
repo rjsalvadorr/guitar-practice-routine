@@ -70,7 +70,7 @@
   \tocItem \markup { "   #1   Major (5-string pattern)" }
   
   \header {
-    title = "Exercise 01"
+    title = "Exercise #1"
     subtitle = "Major scale (5-string pattern)"
   }
   
@@ -113,7 +113,7 @@
   \tocItem \markup { "   #2   Major (4-string pattern A)" }
   
   \header {
-    title = "Exercise 02"
+    title = "Exercise #2"
     subtitle = "Major scale (4-string pattern A)"
   }
   
@@ -156,7 +156,7 @@
   \tocItem \markup { "   #3   Major (4-string pattern B)" }
   
   \header {
-    title = "Exercise 03"
+    title = "Exercise #3"
     subtitle = "Major scale (4-string pattern B)"
   }
   
@@ -199,7 +199,7 @@
   \tocItem \markup { "   #4   Natural minor (5-string pattern)" }
   
   \header {
-    title = "Exercise 04"
+    title = "Exercise #4"
     subtitle = "Natural minor scale (5-string pattern)"
   }
   
@@ -242,7 +242,7 @@
   \tocItem \markup { "   #5   Natural minor (4-string pattern A)" }
   
   \header {
-    title = "Exercise 05"
+    title = "Exercise #5"
     subtitle = "Natural minor scale (4-string pattern A)"
   }
   
@@ -285,7 +285,7 @@
   \tocItem \markup { "   #6   Natural minor (4-string pattern B)" }
   
   \header {
-    title = "Exercise 06"
+    title = "Exercise #6"
     subtitle = "Natural minor scale (4-string pattern B)"
   }
   
@@ -328,7 +328,7 @@
   \tocItem \markup { "   #7   Harmonic minor (5-string pattern)" }
   
   \header {
-    title = "Exercise 07"
+    title = "Exercise #7"
     subtitle = "Harmonic minor scale (5-string pattern)"
   }
   
@@ -371,7 +371,7 @@
   \tocItem \markup { "   #8   Harmonic minor (4-string pattern A)" }
   
   \header {
-    title = "Exercise 08"
+    title = "Exercise #8"
     subtitle = "Harmonic minor scale (4-string pattern A)"
   }
   
@@ -384,7 +384,7 @@
       \hspace #0
       \hspace #0
       \wordwrap {
-        Just like exercise 00, but with the harmonic minor scale (natural minor scale + sharpened 7th degree).
+        Just like exercise "#5," but with the harmonic minor scale (natural minor scale + sharpened 7th degree).
       }
       \hspace #0
       \hspace #0
@@ -418,7 +418,7 @@
   \tocItem \markup { "   #9   Harmonic minor (4-string pattern B)" }
   
   \header {
-    title = "Exercise 09"
+    title = "Exercise #9"
     subtitle = "Harmonic minor scale (4-string pattern B)"
   }
   
@@ -431,7 +431,7 @@
       \hspace #0
       \hspace #0
       \wordwrap {
-        Just like exercise 00, but with the harmonic minor scale (natural minor scale + sharpened 7th degree).
+        Just like exercise "#6," but with the harmonic minor scale (natural minor scale + sharpened 7th degree).
       }
       \hspace #0
       \hspace #0
