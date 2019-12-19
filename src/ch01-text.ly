@@ -67,10 +67,10 @@
 
 \bookpart {
   
-  \tocItem \markup { "   1-A   Major scale (5-string pattern)" }
+  \tocItem \markup { "   #1   Major (5-string pattern)" }
   
   \header {
-    title = "Exercise 1-A"
+    title = "Exercise 01"
     subtitle = "Major scale (5-string pattern)"
   }
   
@@ -110,11 +110,11 @@
 
 \bookpart {
   
-  \tocItem \markup { "   1-B   Major scale (4-string pattern)" }
+  \tocItem \markup { "   #2   Major (4-string pattern A)" }
   
   \header {
-    title = "Exercise 1-B"
-    subtitle = "Major scale (4-string pattern)"
+    title = "Exercise 02"
+    subtitle = "Major scale (4-string pattern A)"
   }
   
   \paper { 
@@ -153,10 +153,53 @@
 
 \bookpart {
   
-  \tocItem \markup { "   1-C   Natural minor scale (5-string pattern)" }
+  \tocItem \markup { "   #3   Major (4-string pattern B)" }
   
   \header {
-    title = "Exercise 1-C"
+    title = "Exercise 03"
+    subtitle = "Major scale (4-string pattern B)"
+  }
+  
+  \paper { 
+    system-system-spacing.basic-distance = #16
+  }
+
+  \markup \abs-fontsize #12 {
+    \column {
+      \hspace #0
+      \hspace #0
+      \hspace #0
+    }
+  }
+  
+  \score {
+    
+    \layout {
+      \omit Voice.StringNumber
+      indent = 0.0\cm
+    }
+    
+    \new StaffGroup <<
+      
+      \new Staff <<
+        \override Score.BarNumber.transparent = ##t
+        \fourStringScalesFour
+      >>
+        
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \fourStringScalesFourTab
+      >>
+    >>
+  }
+}
+
+\bookpart {
+  
+  \tocItem \markup { "   #4   Natural minor (5-string pattern)" }
+  
+  \header {
+    title = "Exercise 04"
     subtitle = "Natural minor scale (5-string pattern)"
   }
   
@@ -196,11 +239,11 @@
 
 \bookpart {
   
-  \tocItem \markup { "   1-D   Natural minor scale (4-string pattern)" }
+  \tocItem \markup { "   #5   Natural minor (4-string pattern A)" }
   
   \header {
-    title = "Exercise 1-D"
-    subtitle = "Natural minor scale (4-string pattern)"
+    title = "Exercise 05"
+    subtitle = "Natural minor scale (4-string pattern A)"
   }
   
   \paper { 
@@ -239,10 +282,53 @@
 
 \bookpart {
   
-  \tocItem \markup { "   1-E   Harmonic minor scale (5-string pattern)" }
+  \tocItem \markup { "   #6   Natural minor (4-string pattern B)" }
   
   \header {
-    title = "Exercise 1-E"
+    title = "Exercise 06"
+    subtitle = "Natural minor scale (4-string pattern B)"
+  }
+  
+  \paper { 
+    system-system-spacing.basic-distance = #16
+  }
+
+  \markup \abs-fontsize #12 {
+    \column {
+      \hspace #0
+      \hspace #0
+      \hspace #0
+    }
+  }
+  
+  \score {
+    
+    \layout {
+      \omit Voice.StringNumber
+      indent = 0.0\cm
+    }
+    
+    \new StaffGroup <<
+      
+      \new Staff <<
+        \override Score.BarNumber.transparent = ##t
+        \fourStringScalesFive
+      >>
+        
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \fourStringScalesFiveTab
+      >>
+    >>
+  }
+}
+
+\bookpart {
+  
+  \tocItem \markup { "   #7   Harmonic minor (5-string pattern)" }
+  
+  \header {
+    title = "Exercise 07"
     subtitle = "Harmonic minor scale (5-string pattern)"
   }
   
@@ -282,11 +368,11 @@
 
 \bookpart {
   
-  \tocItem \markup { "   1-F   Harmonic minor scale (4-string pattern)" }
+  \tocItem \markup { "   #8   Harmonic minor (4-string pattern A)" }
   
   \header {
-    title = "Exercise 1-F"
-    subtitle = "Harmonic minor scale (4-string pattern)"
+    title = "Exercise 08"
+    subtitle = "Harmonic minor scale (4-string pattern A)"
   }
   
   \paper { 
@@ -298,7 +384,7 @@
       \hspace #0
       \hspace #0
       \wordwrap {
-        Just like exercise 1-B, but with the harmonic minor scale (natural minor scale + sharpened 7th degree).
+        Just like exercise 00, but with the harmonic minor scale (natural minor scale + sharpened 7th degree).
       }
       \hspace #0
       \hspace #0
@@ -322,6 +408,53 @@
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
         \fourStringScalesThreeTab
+      >>
+    >>
+  }
+}
+
+\bookpart {
+  
+  \tocItem \markup { "   #9   Harmonic minor (4-string pattern B)" }
+  
+  \header {
+    title = "Exercise 09"
+    subtitle = "Harmonic minor scale (4-string pattern B)"
+  }
+  
+  \paper { 
+    system-system-spacing.basic-distance = #16
+  }
+
+  \markup \abs-fontsize #12 {
+    \column {
+      \hspace #0
+      \hspace #0
+      \wordwrap {
+        Just like exercise 00, but with the harmonic minor scale (natural minor scale + sharpened 7th degree).
+      }
+      \hspace #0
+      \hspace #0
+    }
+  }
+  
+  \score {
+    
+    \layout {
+      \omit Voice.StringNumber
+      indent = 0.0\cm
+    }
+    
+    \new StaffGroup <<
+      
+      \new Staff <<
+        \override Score.BarNumber.transparent = ##t
+        \fourStringScalesSix
+      >>
+        
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \fourStringScalesSixTab
       >>
     >>
   }
