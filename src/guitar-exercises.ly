@@ -112,7 +112,7 @@ tocSection =
         
         \hspace #0
         \hspace #0
-s        \bold "Brushing up on technique"
+        \bold "Brushing up on technique"
         \hspace #0
         \wordwrap {
           You can also focus on specific exercises. Say you want to improve your chord work for a week. Then you can play one exercise from "Part 3" every day for a week.

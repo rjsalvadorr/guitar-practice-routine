@@ -68,10 +68,10 @@
 
 \bookpart {
 
-  \tocItem \markup { "   3-A   Major three-string chords" }
+  \tocItem \markup { "   #13   Major three-string chords" }
 
   \header {
-    title = "Exercise 3-A"
+    title = "Exercise #13"
     subtitle = "Major three-string chords"
     subsubtitle = "I - V - I"
   }
@@ -110,10 +110,10 @@
 
 \bookpart {
 
-  \tocItem \markup { "   3-B   Minor three-string chords" }
+  \tocItem \markup { "   #14   Minor three-string chords" }
 
   \header {
-    title = "Exercise 3-B"
+    title = "Exercise #14"
     subtitle = "Minor three-string chords"
     subsubtitle = "i - v - i"
   }
@@ -156,10 +156,10 @@
 
 \bookpart {
 
-  \tocItem \markup { "   3-C   Diminished three-string chords" }
+  \tocItem \markup { "   #15   Diminished three-string chords" }
 
   \header {
-    title = "Exercise 3-C"
+    title = "Exercise #15"
     subtitle = "Diminished three-string chords"
     subsubtitle = "i° - ♭v° - i°"
   }
