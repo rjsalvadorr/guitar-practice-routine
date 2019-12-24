@@ -58,7 +58,6 @@ tocSection =
       left-margin = 1.5\in
       right-margin = 1.5\in
     }
-    
     \markup \abs-fontsize #14 {
       \fill-line {
         \center-column \italic {
