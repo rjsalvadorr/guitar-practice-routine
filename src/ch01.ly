@@ -113,7 +113,7 @@ exerciseThree = {
   \time 4/4
   \key g \major
 
-  g,8_1^\markup { "G major" } a,_1 b, c d e fs g
+  g,8_1^\markup { "G major" } a,_1 b, c d_1 e_1 fs g
   
   a^1 b^1 c' d' e' fs' g'4
 
@@ -226,7 +226,7 @@ exerciseFive = {
 
   g,8^\markup { "G natural minor" } a, bf, c_1 d_1 ef f g_1
   
-  a^1 bf c' d'^1 ef'^1 f' g'4
+  a_1 bf c' d'^1 ef'^1 f' g'4
 
   g'8^4 f'^4 ef' d' c'^4 bf^4 a g
   
@@ -237,7 +237,7 @@ exerciseFive = {
 
   c8^\markup { "C natural minor" } d ef f_1 g_1 af bf c'_1
   
-  d'^1 ef' f' g'^1 af'^1 bf' c''4
+  d'_1 ef' f' g'^1 af'^1 bf' c''4
 
   c''8^4 bf'^4 af' g' f'^4 ef'^4 d' c'
   
@@ -285,7 +285,7 @@ exerciseSix = {
 
   g,8_1^\markup { "G natural minor" } a,_1 bf, c d_1 ef_1 f g
   
-  a^1 bf^1 c' d' ef' f' g'4
+  a_1 bf_1 c' d' ef' f' g'4
 
   g'8 f' ef' d'^4 c'^4 bf a g_4
   
@@ -305,7 +305,7 @@ exerciseSix = {
   \break
   \key e \minor
 
-  e8^1^\markup { "E natural minor" } fs^1 g a b^1 c'^1 d' e'
+  e8_1^\markup { "E natural minor" } fs_1 g a b_1 c'_1 d' e'
   
   fs'^1 g'^1 a' b' c'' d'' e''4
 

@@ -13,7 +13,7 @@
     right-margin = 1.25\in
   }
 
-  \markup \abs-fontsize #13 {
+  \markup \abs-fontsize #12 {
     \column {
       \hspace #0
       \hspace #0
@@ -27,7 +27,7 @@
       \hspace #0
       \hspace #0
 
-      \huge \bold "Exercise Format"
+      \large \bold "Exercise Format"
       \hspace #0
       \wordwrap {
         Each exercise goes through a chord progression made of four
@@ -37,7 +37,7 @@
       \hspace #0
       \hspace #0
 
-      \huge \bold "Key Skills"
+      \large \bold "Key Skills"
       \hspace #0
       \wordwrap {
         These exercises focus on \italic {string crossings,} \italic {position shifts,} and \italic {harmonic context} (playing with harmony in mind).
@@ -46,7 +46,7 @@
       \hspace #0
       \hspace #0
 
-      \huge \bold "Notation"
+      \large \bold "Notation"
       \hspace #0
       \wordwrap {
         Follow the fretting hand fingerings on the notation staff.

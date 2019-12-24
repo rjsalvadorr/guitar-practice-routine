@@ -14,26 +14,42 @@
     right-margin = 1.25\in
   }
 
-  \markup \abs-fontsize #13 {
+  \markup \abs-fontsize #12 {
     \column {
       \hspace #0
       \hspace #0
       \wordwrap {
-        Reprehenderit duis nulla, id est lorem filet mignon fatback pork commodo swine strip steak. Bacon pig occaecat duis, eu elit non aliquip eiusmod biltong leberkas t-bone qui boudin pariatur. 
+        Scales are mainstays of effective practice routines, and for good reason.
+        Scale practice reinforces skills needed for perfect tone production,
+        lightning-fast runs, even staying in key while improvising.
       }
       \hspace #0
       \hspace #0
       \hspace #0
 
-      \huge \bold "Exercise Format"
+      \large \bold "Exercise Format"
       \hspace #0
       \wordwrap {
-        These scale fingerings cover a good portion of the fretboard, and feature several string shifts and string crossings.
+        These scale fingerings cover a good portion of the fretboard, and feature
+        several string shifts and string crossings. The scales can be learned gradually like so:
       }
       \hspace #0
       \hspace #0
       \wordwrap {
-        In addition, the 2nd half of each scale (descending) is a modified form of the first half. You can practice each half separately if you need extra scale practice, or mix them up in other ways.
+        EASY - Play each scale separately, using any fingering. Focus on memorizing the fretboard
+        and playing while relaxed.
+      }
+      \hspace #0
+      \hspace #0
+      \wordwrap {
+        NORMAL - Play each scale separately, using the specified fingerings. Focus on the correct
+        fingerings and shifting technique.
+      }
+      \hspace #0
+      \hspace #0
+      \wordwrap {
+        HARD - Play through all scales in the exercise at the same tempo, using the specified fingerings.
+        Focus on consistency and economy with every movement.
       }
       \hspace #0
       \hspace #0

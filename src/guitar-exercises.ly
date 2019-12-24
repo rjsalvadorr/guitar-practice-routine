@@ -45,7 +45,6 @@ tocSection =
     \header {
       title = \markup \abs-fontsize #34 {
         \center-column {
-          \line { "RJ'S" }
           \line { "GUITAR PRACTICE" }
           \line { "ROUTINE" }
           \hspace #0
@@ -63,7 +62,7 @@ tocSection =
         \center-column \italic {
           \hspace #0
           \hspace #0
-          "by R. J. Salvador"
+          "by RJ Salvador"
           \with-color #grey \versionNumber
         }
       }
@@ -79,7 +78,7 @@ tocSection =
       \column {
         \hspace #0
         \hspace #0
-        \huge \bold "What is this?"
+        \large \bold "What is this?"
         \hspace #0
         \wordwrap {
             This is a book of exercises for levelling up fretboard skills.
@@ -93,14 +92,14 @@ tocSection =
         "- harmonic context"
         \hspace #0
         
-        \huge \bold "Who is this for?"
+        \large \bold "Who is this for?"
         \hspace #0
         \wordwrap {
             Intermediate-level guitarists that want a good starting point for a daily practice regimen.
         }
         \hspace #0
 
-        \huge \bold "How do I use this?"
+        \large \bold "How do I use this?"
         \hspace #0
 
         \bold "Daily practice"

@@ -14,7 +14,7 @@
     right-margin = 1.25\in
   }
 
-  \markup \abs-fontsize #13 {
+  \markup \abs-fontsize #12 {
     \column {
       \hspace #0
       \hspace #0
@@ -28,7 +28,7 @@
       \hspace #0
       \hspace #0
 
-      \huge \bold "Exercise Format"
+      \large \bold "Exercise Format"
       \hspace #0
       \wordwrap {
         Each exercise shows how to play one chord type through the
@@ -51,7 +51,7 @@
       \hspace #0
       \hspace #0
 
-      \huge \bold "Key Skills and Suggestions"
+      \large \bold "Key Skills and Suggestions"
       \hspace #0
       \wordwrap {
         These exercises focus on \italic {chord movement,} \italic {position shifts,} and \italic {harmonic context} (playing with harmony in mind).
