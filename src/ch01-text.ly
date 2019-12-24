@@ -97,12 +97,12 @@
       
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
-        \fiveStringScalesOne
+        \exerciseOne
       >>
         
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
-        \fiveStringScalesOneTab
+        \exerciseOneTab
       >>
     >>
   }
@@ -140,12 +140,12 @@
       
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
-        \fourStringScalesOne
+        \exerciseTwo
       >>
         
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
-        \fourStringScalesOneTab
+        \exerciseTwoTab
       >>
     >>
   }
@@ -183,12 +183,12 @@
       
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
-        \fourStringScalesFour
+        \exerciseThree
       >>
         
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
-        \fourStringScalesFourTab
+        \exerciseThreeTab
       >>
     >>
   }
@@ -226,12 +226,12 @@
       
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
-        \fiveStringScalesTwo
+        \exerciseFour
       >>
         
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
-        \fiveStringScalesTwoTab
+        \exerciseFourTab
       >>
     >>
   }
@@ -269,12 +269,12 @@
       
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
-        \fourStringScalesTwo
+        \exerciseFive
       >>
         
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
-        \fourStringScalesTwoTab
+        \exerciseFiveTab
       >>
     >>
   }
@@ -312,12 +312,12 @@
       
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
-        \fourStringScalesFive
+        \exerciseSix
       >>
         
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
-        \fourStringScalesFiveTab
+        \exerciseSixTab
       >>
     >>
   }
@@ -355,12 +355,12 @@
       
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
-        \fiveStringScalesThree
+        \exerciseSeven
       >>
         
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
-        \fiveStringScalesThreeTab
+        \exerciseSevenTab
       >>
     >>
   }
@@ -402,12 +402,12 @@
       
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
-        \fourStringScalesThree
+        \exerciseEight
       >>
         
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
-        \fourStringScalesThreeTab
+        \exerciseEightTab
       >>
     >>
   }
@@ -449,12 +449,12 @@
       
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
-        \fourStringScalesSix
+        \exerciseNine
       >>
         
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
-        \fourStringScalesSixTab
+        \exerciseNineTab
       >>
     >>
   }

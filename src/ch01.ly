@@ -1,4 +1,4 @@
-fourStringScalesOne = {
+exerciseTwo = {
   \relative
   \clef "treble_8"
   \time 4/4
@@ -24,7 +24,7 @@ fourStringScalesOne = {
   \bar "||"
 }
 
-fourStringScalesOneTab = {
+exerciseTwoTab = {
   \relative
   \time 4/4
 
@@ -43,7 +43,7 @@ fourStringScalesOneTab = {
 
 
 
-fourStringScalesTwo = {
+exerciseFive = {
   \relative
   \clef "treble_8"
   \time 4/4
@@ -69,7 +69,7 @@ fourStringScalesTwo = {
   \bar "||"
 }
 
-fourStringScalesTwoTab = {
+exerciseFiveTab = {
   \relative
   \time 4/4
 
@@ -90,7 +90,7 @@ fourStringScalesTwoTab = {
 
 
 
-fourStringScalesThree = {
+exerciseEight = {
   \relative
   \clef "treble_8"
   \time 4/4
@@ -128,7 +128,7 @@ fourStringScalesThree = {
   \bar "||"
 }
 
-fourStringScalesThreeTab = {
+exerciseEightTab = {
   \relative
   \time 4/4
 
@@ -149,7 +149,7 @@ fourStringScalesThreeTab = {
 
 
 
-fourStringScalesFour = {
+exerciseThree = {
   \relative
   \clef "treble_8"
   \time 4/4
@@ -175,7 +175,7 @@ fourStringScalesFour = {
   \bar "||"
 }
 
-fourStringScalesFourTab = {
+exerciseThreeTab = {
   \relative
   \time 4/4
 
@@ -196,7 +196,7 @@ fourStringScalesFourTab = {
 
 
 
-fourStringScalesFive = {
+exerciseSix = {
   \relative
   \clef "treble_8"
   \time 4/4
@@ -222,7 +222,7 @@ fourStringScalesFive = {
   \bar "||"
 }
 
-fourStringScalesFiveTab = {
+exerciseSixTab = {
   \relative
   \time 4/4
 
@@ -243,7 +243,7 @@ fourStringScalesFiveTab = {
 
 
 
-fourStringScalesSix = {
+exerciseNine = {
   \relative
   \clef "treble_8"
   \time 4/4
@@ -281,7 +281,7 @@ fourStringScalesSix = {
   \bar "||"
 }
 
-fourStringScalesSixTab = {
+exerciseNineTab = {
   \relative
   \time 4/4
 
@@ -302,7 +302,7 @@ fourStringScalesSixTab = {
 
 
 
-fiveStringScalesOne = {
+exerciseOne = {
   \clef "treble_8"
   \time 4/4
   \key g \major
@@ -330,7 +330,7 @@ fiveStringScalesOne = {
   \bar "||"
 }
 
-fiveStringScalesOneTab = {
+exerciseOneTab = {
   \time 4/4
   \key g \major
   
@@ -354,7 +354,7 @@ fiveStringScalesOneTab = {
 
 
 
-fiveStringScalesTwo = {
+exerciseFour = {
   \clef "treble_8"
   \time 4/4
   \key g \minor
@@ -382,7 +382,7 @@ fiveStringScalesTwo = {
   \bar "||"
 }
 
-fiveStringScalesTwoTab = {
+exerciseFourTab = {
   \time 4/4
   \key g \minor
   
@@ -406,7 +406,7 @@ fiveStringScalesTwoTab = {
 
 
 
-fiveStringScalesThree = {
+exerciseSeven = {
   \clef "treble_8"
   \time 4/4
   \key g \minor
@@ -434,7 +434,7 @@ fiveStringScalesThree = {
   \bar "||"
 }
 
-fiveStringScalesThreeTab = {
+exerciseSevenTab = {
   \time 4/4
   \key g \minor
   
